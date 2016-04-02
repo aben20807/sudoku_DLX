@@ -40,11 +40,7 @@ class Sudoku{
         void addNode(int r,int c);
 
         void printSolve();
-        /*bool checkCorrect();
-        bool checkQuestion();
-        bool checkIndexCorrect(int index);
-        void backtrace(int num);*/
-
+        
         int _board[SIZE];
         int _zeronum;
         int _solvenum;
